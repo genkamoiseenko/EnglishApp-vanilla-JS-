@@ -1,0 +1,122 @@
+* {
+    font-family: Arial;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+button {
+    height: 30px;
+    width: 70px;
+    text-align: center;
+}
+
+.app {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+}
+
+.first-page{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.language {
+
+    margin-top: 257px;
+    margin-bottom: 280px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.language__buttons {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.second-page {
+    height: 100%;
+    background-color: cornflowerblue;
+    display: none;
+    flex-direction: column;
+}
+
+.words{
+    margin-top: 180px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 18px;
+    width: 100px;
+    height: 20px;
+    margin-left: 15px;
+}
+
+input {
+    width: 125px;
+    height: 22px;
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.input--disabled {
+    border-color: mediumblue;
+}
+
+.input--error {
+    border-color: red;
+    background-color: salmon;
+}
+
+.input--accept {
+    border-color:  lightgreen;
+    background-color: skyblue;
+}
+
+.message {
+    width: 100px;
+    height: 20px;
+    margin-left: 15px;
+    text-decoration: burlywood;
+}
+
+ 
+.buttons {
+    margin: 0px 150px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.check {
+    margin: 0px 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.check__block {
+    display: flex;
+    flex-direction: row;
+}  
+
